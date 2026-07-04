@@ -1,24 +1,24 @@
 {
-  "logo": "",
-  "alamat": "Jl. Pendidikan No. 1, Mattiro Bulu (sesuaikan dengan alamat sebenarnya)",
-  "telepon": "0812-xxxx-xxxx",
-  "email": "smpn1mattirobulu@gmail.com",
-  "jam_layanan": "Senin \u2013 Jumat, 07.00 \u2013 15.00 WITA",
-  "maps_embed": "https://www.google.com/maps?q=Mattiro%20Bulu&output=embed",
-  "instagram": "#",
-  "youtube": "#",
-  "facebook": "#",
+  "youtube": "UPT SMP NEGERI 1 MATTIRO BULU",
+  "telepon": "085398481230",
+  "facebook": "-",
+  "alamat": "Jl Poros Pinrang-Pare, Barugae, Kel. Padaidi, Kec. Mattiro Bulu, Kab. Pinrang",
+  "logo": "/assets/uploads/desain-tanpa-judul.png",
   "sambutan": {
-    "nama": "Nama Kepala Sekolah, S.Pd., M.Pd.",
+    "nama": "H. SULAEAMAN, S.Pd., M.M.",
     "jabatan": "Kepala UPT SMP Negeri 1 Mattiro Bulu",
     "foto": "",
     "kutipan": "Pendidikan adalah proses menyalakan pelita, bukan sekadar mengisi wadah. Melalui website ini, kami berharap dapat menjalin komunikasi yang lebih dekat dengan siswa, orang tua, dan masyarakat.",
     "isi": "Puji syukur kami panjatkan atas hadirnya website resmi UPT SMP Negeri 1 Mattiro Bulu ini. Kami berkomitmen menghadirkan pendidikan yang bermutu, membentuk karakter, dan menumbuhkan prestasi siswa di berbagai bidang akademik maupun non-akademik. Kami mengucapkan terima kasih kepada seluruh guru, tenaga kependidikan, orang tua, dan siswa atas kerja sama yang terjalin selama ini."
   },
+  "maps_embed": "https://maps.app.goo.gl/7xgtfsCuc2b21h3N7",
+  "instagram": "@uptsmpn1mattirobulu",
+  "jam_layanan": "Senin – Kamis,07.30 – 13.00 WITA | Jumat - Sabtu, 07.30 – 13.00 WITA",
   "statistik": {
     "siswa": "500+",
-    "guru": "35",
-    "ekskul": "12",
-    "akreditasi": "A"
-  }
+    "guru": "46",
+    "ekskul": "6",
+    "akreditasi": "B"
+  },
+  "email": "uptsmpnegerimattirobulu@gmail.com"
 }
