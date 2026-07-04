@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "tag": "Pengumuman",
+      "judul": "Informasi Penerimaan Murid Baru (SPMB)",
+      "ringkasan": "Pendaftaran murid baru tahun ajaran mendatang segera dibuka. Simak syarat dan jadwal lengkapnya.",
+      "tanggal": "Isi tanggal",
+      "gambar": ""
+    },
+    {
+      "tag": "Prestasi",
+      "judul": "Juara Lomba Tingkat Kabupaten",
+      "ringkasan": "Siswa-siswi berhasil meraih prestasi membanggakan pada ajang lomba tingkat kabupaten.",
+      "tanggal": "Isi tanggal",
+      "gambar": ""
+    },
+    {
+      "tag": "Kegiatan",
+      "judul": "Kegiatan Belajar Mengajar Semester Ini",
+      "ringkasan": "Rangkuman kegiatan pembelajaran dan agenda sekolah pada semester berjalan.",
+      "tanggal": "Isi tanggal",
+      "gambar": ""
+    }
+  ]
+}

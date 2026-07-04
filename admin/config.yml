@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "en"
+
+collections:
+  - name: "settings"
+    label: "Pengaturan Sekolah"
+    files:
+      - label: "Informasi Umum & Kontak"
+        name: "general"
+        file: "content/settings.json"
+        fields:
+          - { label: "Logo Sekolah (kosongkan jika tidak ingin ganti)", name: "logo", widget: "image", required: false }
+          - { label: "Alamat", name: "alamat", widget: "string" }
+          - { label: "Telepon", name: "telepon", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Jam Layanan", name: "jam_layanan", widget: "string" }
+          - { label: "Link Google Maps (embed)", name: "maps_embed", widget: "string", hint: "Buka Google Maps, cari lokasi, klik Bagikan > Sematkan peta, salin link src iframe" }
+          - { label: "Instagram", name: "instagram", widget: "string", required: false }
+          - { label: "YouTube", name: "youtube", widget: "string", required: false }
+          - { label: "Facebook", name: "facebook", widget: "string", required: false }
+          - label: "Sambutan Kepala Sekolah"
+            name: "sambutan"
+            widget: "object"
+            fields:
+              - { label: "Nama Kepala Sekolah", name: "nama", widget: "string" }
+              - { label: "Jabatan", name: "jabatan", widget: "string" }
+              - { label: "Foto (opsional)", name: "foto", widget: "image", required: false }
+              - { label: "Kutipan Singkat", name: "kutipan", widget: "text" }
+              - { label: "Isi Sambutan", name: "isi", widget: "text" }
+          - label: "Statistik Sekolah"
+            name: "statistik"
+            widget: "object"
+            fields:
+              - { label: "Jumlah Siswa", name: "siswa", widget: "string" }
+              - { label: "Jumlah Tenaga Pendidik", name: "guru", widget: "string" }
+              - { label: "Jumlah Ekstrakurikuler", name: "ekskul", widget: "string" }
+              - { label: "Akreditasi", name: "akreditasi", widget: "string" }
+
+  - name: "berita"
+    label: "Berita & Kegiatan"
+    files:
+      - label: "Daftar Berita"
+        name: "list"
+        file: "content/berita.json"
+        fields:
+          - label: "Berita"
+            name: "items"
+            widget: "list"
+            summary: "{{judul}}"
+            fields:
+              - { label: "Kategori", name: "tag", widget: "select", options: ["Pengumuman", "Prestasi", "Kegiatan", "Akademik"] }
+              - { label: "Judul", name: "judul", widget: "string" }
+              - { label: "Ringkasan", name: "ringkasan", widget: "text" }
+              - { label: "Tanggal", name: "tanggal", widget: "string" }
+              - { label: "Gambar (opsional)", name: "gambar", widget: "image", required: false }
+
+  - name: "galeri"
+    label: "Galeri Foto"
+    files:
+      - label: "Daftar Foto"
+        name: "list"
+        file: "content/galeri.json"
+        fields:
+          - label: "Foto"
+            name: "items"
+            widget: "list"
+            summary: "{{keterangan}}"
+            fields:
+              - { label: "Gambar", name: "gambar", widget: "image" }
+              - { label: "Keterangan", name: "keterangan", widget: "string" }
