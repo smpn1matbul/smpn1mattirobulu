@@ -1,9 +1,20 @@
 {
   "items": [
-    { "gambar": "", "keterangan": "Foto Kegiatan 1" },
-    { "gambar": "", "keterangan": "Foto Kegiatan 2" },
-    { "gambar": "", "keterangan": "Foto Kegiatan 3" },
-    { "gambar": "", "keterangan": "Foto Kegiatan 4" },
-    { "gambar": "", "keterangan": "Foto Kegiatan 5" }
+    {
+      "gambar": "/assets/uploads/whatsapp-image-2026-04-13-at-11.01.40.jpeg",
+      "keterangan": "Foto Kegiatan 1"
+    },
+    {
+      "gambar": "/assets/uploads/whatsapp-image-2026-04-13-at-11.12.30.jpeg",
+      "keterangan": "Foto Kegiatan 2"
+    },
+    {
+      "gambar": "/assets/uploads/whatsapp-image-2026-04-13-at-11.11.25.jpeg",
+      "keterangan": "Foto Kegiatan 3"
+    },
+    {
+      "gambar": "/assets/uploads/whatsapp-image-2026-05-01-at-18.00.53.jpeg",
+      "keterangan": "Foto Kegiatan 4"
+    }
   ]
 }
